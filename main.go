@@ -31,14 +31,14 @@ func main() {
 	fmt.Println()
 	// ======================================================
 
-	// NEEDLE IN THE HAYSTACK
+	// Needle In The Haystack
 	fmt.Println(challenges.FindNeedle([]string{"red", "blue", "yellow", "black", "grey"}, "blue"))
 
 	// ======================================================
 	fmt.Println()
 	// ======================================================
 
-	// THE BLUE OCEAN REVERSE
+	// The Blue Ocean Reverse
 	res := challenges.BlueOcean([]int{1, 2, 3, 4, 6, 10}, []int{1})
 	fmt.Println(res)
 	res = challenges.BlueOcean([]int{1, 5, 5, 5, 5, 3}, []int{5})
